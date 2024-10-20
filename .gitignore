@@ -1,0 +1,9 @@
+.idea/
+*.pyc
+*.sqlite3
+media/
+virtualenv
+collectstatic/
+venv/
+*.log
+django2/
