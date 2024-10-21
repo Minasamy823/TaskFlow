@@ -11,7 +11,6 @@ class TaskFileRepository:
         task.files.all().delete()
 
         for file in files:
-            print(f"file{file}")
             TaskFile.objects.create(
                 task=task,
                 file=file
